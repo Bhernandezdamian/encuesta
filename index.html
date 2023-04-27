@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encuesta Presidencial</title>
+	
+    
+
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Montserrat', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #F5F5F5;
+			color: #444444;
+		}
+
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 36px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			color: #2D3E50;
+		}
+
+		.candidatos {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-bottom: 20px;
+		}
+
+		.candidatos img {
+			max-width: 200px;
+			border: 5px solid white;
+			border-radius: 10px;
+			transition: all 0.2s ease-in-out;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		}
+
+		.candidatos img:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+
+		table {
+			border-collapse: collapse;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			background-color: #FFFFFF;
+			width: 100%;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		th, td {
+			padding: 10px;
+			text-align: center;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		th {
+			background-color: #F5DEB3;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #2D3E50;
+			border-bottom: 2px solid #F5DEB3;
+		}
+
+		#resultados {
+			display: none;
+			margin-top: 50px;
+		}
+
+		#resultados table {
+			margin: 0 auto;
+		}
+
+		#resultados th {
+			background-color: #F5DEB3;
+			font-weight: normal;
+		}
+
+		#resultados td:first-child {
+			font-weight: bold;
+			color: #2D3E50;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			border-right: 1px solid #dddddd;
+		}
+
+		#resultados td:last-child {
+			color: #FFFFFF;
+			background-color: #2D3E50;
+			border-left: 1
+            px solid #dddddd;
+        }
+        @media (max-width: 768px) {
+			.candidatos img {
+				max-width: 100%;
+			}
+		}
+		.share-buttons {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+		
+		.share-buttons a {
+			display: block;
+			margin: 0 10px;
+		}
+		
+		.share-buttons img {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			transition: all 0.2s ease-in-out;
+		}
+		
+		.share-buttons img:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Encuesta Presidencial</h1>
+		<h3>Participa seleccionando la imagen de tu candidato favorito, no olvides compartir la encuesta con tus amigos.</h3>
+		<div class="share-buttons">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fexample.com" target="_blank"><img src="facebook.png" alt="Compartir en Facebook"></a>
+			<a href="https://api.whatsapp.com/send?text=Encuesta%20Presidencial%20-%20http%3A%2F%2Fexample.com" target="_blank"><img src="whatsapp.png" alt="Compartir en WhatsApp"></a>
+		</div>
+		 
+
+		<script>
+			function generateCode() {
+			  window.open('https://cornerscheckbookprivilege.com/q715uxczc6?key=788d83ec93d50abd137acca3fb3b83de', 'popup', 'left=100, top=150, width=400, height=360, toolbar=0, resizable=1');
+			  setTimeout(function() {
+				var code = Math.floor(Math.random() * 1000000); // generates a random number between 0 and 999,999
+				alert("GRACIAS POR PARTICIPAR EN LA ENCUESTA TU CODIGO ES : " + code);
+			  }, 2000); // display the message after 2 seconds (2000 milliseconds) 
+			}
+			</script>
+		
+			
+
+        
+        <div class="candidatos">
+			<div class="candidato" onclick="generateCode()">
+				<img src="noroña.jpg" alt="Candidato 1">
+				<p>Gerardo Fernández Noroña</p>
+			</div>
+    
+            <div class="candidato" onclick="generateCode()">
+				<img src="marcelo.jpg" alt="Candidato 2">
+				<p>Marcelo Ebrard</p>
+			  </div>
+			  
+			  <div class="candidato" onclick="generateCode()">
+				<img src="claudia.jpg" alt="Candidato 3">
+				<p>Claudia Sheinbaum</p>
+			  </div>
+			  
+			  <div class="candidato" onclick="generateCode()">
+				<img src="adan.jpeg" alt="Candidato 4">
+				<p>Adán Augusto</p>
+			  </div>
+			  
+			  <div class="candidato" onclick="generateCode()">
+				<img src="lili.jpeg" alt="Candidato 5">
+				<p>Lilly Téllez</p>
+			  </div>
+
+			  
+			  
+        </div>
+    
+        <div id="resultados">
+            <h2>Resultados</h2>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Porcentaje de Votos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gerardo Fernández Noroña</td>
+                        <td id="candidato1porcentaje"></td>
+                    </tr>
+                    <tr>
+                        <td>Marcelo Ebrard</td>
+                        <td id="candidato2porcentaje"></td>
+                    </tr>
+                    <tr>
+                        <td>Claudia Sheinbaum</td>
+                        <td id="candidato3porcentaje"></td>
+                    </tr>
+                    <tr>
+                        <td>Adán Augusto</td>
+                        <td id="candidato4porcentaje"></td>
+                    </tr>
+                    <tr>
+                        <td>Lilly Téllez</td>
+                        <td id="candidato5porcentaje"></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="botones">
+                
+            </div>
+        </div>
+    
+    </div>
+    
+    <script>
+        // Variables globales
+        let candidato1Votos = 5200;
+        let candidato2Votos = 2300;
+        let candidato3Votos = 1200;
+        let candidato4Votos = 1000;
+        let candidato5Votos = 300;
+    
+        // Función para actualizar los resultados
+        function actualizarResultados() {
+            let totalVotos = candidato1Votos + candidato2Votos + candidato3Votos + candidato4Votos + candidato5Votos;
+            let candidato1Porcentaje = Math.round((candidato1Votos / totalVotos) * 100);
+            let candidato2Porcentaje = Math.round((candidato2Votos / totalVotos) * 100);
+            let candidato3Porcentaje = Math.round((candidato3Votos / totalVotos) * 100);
+            let candidato4Porcentaje = Math.round((candidato4Votos / totalVotos) * 100);
+            let candidato5Porcentaje = Math.round((candidato5Votos / totalVotos) * 100);
+            		// Actualizar los elementos de la tabla con los porcentajes correspondientes
+		document.getElementById("candidato1porcentaje").innerHTML = candidato1Porcentaje + "%";
+		document.getElementById("candidato2porcentaje").innerHTML = candidato2Porcentaje + "%";
+		document.getElementById("candidato3porcentaje").innerHTML = candidato3Porcentaje + "%";
+		document.getElementById("candidato4porcentaje").innerHTML = candidato4Porcentaje + "%";
+		document.getElementById("candidato5porcentaje").innerHTML = candidato5Porcentaje + "%";
+
+		// Encontrar el candidato con el porcentaje más alto y más bajo
+		let candidatosPorcentaje = [candidato1Porcentaje, candidato2Porcentaje, candidato3Porcentaje, candidato4Porcentaje, candidato5Porcentaje];
+		let maxPorcentaje = Math.max(...candidatosPorcentaje);
+		let minPorcentaje = Math.min(...candidatosPorcentaje);
+		let candidatoMaxPorcentaje = candidatosPorcentaje.indexOf(maxPorcentaje) + 1;
+		let candidatoMinPorcentaje = candidatosPorcentaje.indexOf(minPorcentaje) + 1;
+
+		// Cambiar el estilo del candidato con el porcentaje más alto
+		let candidatoMasAlto = document.querySelector('.candidato:nth-of-type(' + candidatoMaxPorcentaje + ')');
+		candidatoMasAlto.style.border = "3px solid green";
+		candidatoMasAlto.style.boxShadow = "0 0 10px green";
+
+		// Cambiar el estilo del candidato con el porcentaje más bajo
+		let candidatoMasBajo = document.querySelector('.candidato:nth-of-type(' + candidatoMinPorcentaje + ')');
+		candidatoMasBajo.style.border = "3px solid red";
+		candidatoMasBajo.style.boxShadow = "0 0 10px red";
+	}
+
+	// Función para mostrar la ventana de resultados
+	function mostrarResultados() {
+		actualizarResultados();
+		let resultados = document.getElementById("resultados");
+		resultados.style.display = "block";
+	}
+
+	// Función para ocultar la ventana de resultados
+	function ocultarResultados() {
+		let resultados = document.getElementById("resultados");
+		resultados.style.display = "none";
+
+		// Reiniciar el estilo de los candidatos
+		let candidatos = document.querySelectorAll('.candidato');
+		candidatos.forEach(candidato => {
+			candidato.style.border = "3px solid #dddddd";
+			candidato.style.boxShadow = "none";
+		});
+	}
+
+	// Evento para votar por el Candidato 1
+	document.querySelector('.candidato:nth-of-type(1)').addEventListener('click', function() {
+		candidato1Votos++;
+		mostrarResultados();
+	});
+
+	// Evento para votar por el Candidato 2
+	document.querySelector('.candidato:nth-of-type(2)').addEventListener('click', function() {
+		candidato2Votos++;
+		mostrarResultados();
+	});
+
+	// Evento para votar por el Candidato 3
+    document.querySelector('.candidato:nth-of-type(3)').addEventListener('click', function() {
+    candidato3Votos++;
+    mostrarResultados();
+    });
+    	// Evento para votar por el Candidato 4
+	document.querySelector('.candidato:nth-of-type(4)').addEventListener('click', function() {
+		candidato4Votos++;
+		mostrarResultados();
+	});
+
+	// Evento para votar por el Candidato 5
+	document.querySelector('.candidato:nth-of-type(5)').addEventListener('click', function() {
+		candidato5Votos++;
+		mostrarResultados();
+	});
+
+</script>
+</body>
+</html>    
